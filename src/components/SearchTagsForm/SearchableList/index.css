@@ -1,0 +1,40 @@
+.searchable-list {
+	width: 300px;
+	height: 314px;
+	border-radius: 8px;
+	box-shadow: 0 7px 14px rgba(37, 38, 39, .31);
+	background-color: #fff;	
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	transform-origin: left top;
+
+}
+
+.form-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.form-header>h3 {
+	color: #8995B5;
+	font-size: .7em;
+	margin: 0;
+}
+
+.form-header>div {
+	width: 30px;
+	height: 30px;
+	background: url(../../../assets/close.svg) 100% 100% no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	transition: filter .3s ease;
+}
+
+.form-header>div:hover {
+	filter: brightness(0);
+}

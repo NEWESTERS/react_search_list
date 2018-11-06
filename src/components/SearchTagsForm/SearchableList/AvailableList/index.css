@@ -1,0 +1,25 @@
+.available-list {	
+	border: solid 2px #d8dae1;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	margin-bottom: 0;
+	height: 50%;
+	overflow: scroll;
+}
+
+.available-list::-webkit-scrollbar { 
+    display: none; 
+}
+
+.available-item {
+	padding: 2px 5px 2px 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+.available-item:hover {
+	background-color: #d8dae1;
+}
